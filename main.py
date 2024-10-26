@@ -36,7 +36,7 @@ def iseven_recursive(number):
         return iseven_recursive(number - 2)
 
 def iseven_lookup(number):
-    lookup = [True, False, True, False, True, False, True, False, True, False]  # bis 9
+    lookup = [True, False, True, False, True, False, True, False, True, False]
     return lookup[number % 10]
 
 def iseven_isint(number):
