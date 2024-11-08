@@ -1,5 +1,5 @@
 # Author: Philipp Kittler
-# Date: 2024-10-26
+# Date: 2024-11-9
 # License: free usage for private, educational and commercial purposes, referencing appreciated
 
 # very efficient method
@@ -24,6 +24,7 @@ def iseven_string(number):
 def iseven_round(number):
     return round(number / 2) == number // 2
 
+# very efficient method (on MacOS BigSur 11.7.10)
 def iseven_addition(number):
     return (number + number) % 4 == 0
 
